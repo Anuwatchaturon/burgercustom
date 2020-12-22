@@ -1,4 +1,5 @@
- import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
+import 'beefcount.dart';
     Widget beefset = Container(
       padding: const EdgeInsets.all(35),
       
@@ -48,7 +49,11 @@
                           ),
                        ],
                     ),
-                      ),      
+                      ), 
+                      Container(
+                        child: 
+                      Beef1Widget(),
+                        ),           
                        ],
                     ),
                       ),  
@@ -91,7 +96,11 @@
                           ),
                        ],
                     ),
-                      ),      
+                      ),     
+                      Container(
+                        child: 
+                      Beef2Widget(),
+                        ),       
                        ],
                     ),
                       ),  
@@ -134,7 +143,11 @@
                           ),
                        ],
                     ),
-                      ),      
+                      ),   
+                      Container(
+                        child: 
+                      Beef3Widget(),
+                        ),        
                        ],
                     ),
                       ),  

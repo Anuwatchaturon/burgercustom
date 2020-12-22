@@ -1,4 +1,5 @@
- import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
+import 'fishcount.dart';
     Widget fishset = Container(
       padding: const EdgeInsets.all(35),
       
@@ -48,7 +49,11 @@
                           ),
                        ],
                     ),
-                      ),      
+                      ),  
+                      Container(
+                        child: 
+                      Fish1Widget(),
+                        ),     
                        ],
                     ),
                       ),  
@@ -91,7 +96,11 @@
                           ),
                        ],
                     ),
-                      ),      
+                      ), 
+                      Container(
+                        child: 
+                      Fish2Widget(),
+                        ),      
                        ],
                     ),
                       ),  
@@ -134,7 +143,11 @@
                           ),
                        ],
                     ),
-                      ),      
+                      ),  
+                      Container(
+                        child: 
+                      Fish3Widget(),
+                        ),     
                        ],
                     ),
                       ),  

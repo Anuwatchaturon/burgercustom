@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-class Chick1Widget extends StatefulWidget {
+class Extra1Widget extends StatefulWidget {
   @override
-  _Chick1WidgetState createState() => _Chick1WidgetState();
+  _Extra1WidgetState createState() => _Extra1WidgetState();
 }
-class _Chick1WidgetState extends State<Chick1Widget> {
+class _Extra1WidgetState extends State<Extra1Widget> {
   bool _isFavorited = true;
-  int _c1Count = 0;
+  int _e1Count = 0;
   
   void _toggleFavorite() {
   setState(() {
     if (_isFavorited) {
-      _c1Count += 1;
+      _e1Count += 1;
       _isFavorited = true;
     } 
   });
@@ -18,11 +18,11 @@ class _Chick1WidgetState extends State<Chick1Widget> {
   void _toggleFavorite2() {
   setState(() {
     if(_isFavorited) {
-      if(_c1Count ==0){
-        _c1Count =0;
+      if(_e1Count ==0){
+        _e1Count =0;
         _isFavorited = true;
       }  else {
-        _c1Count -= 1;
+        _e1Count -= 1;
         _isFavorited = true;
       }
     }
@@ -48,7 +48,7 @@ class _Chick1WidgetState extends State<Chick1Widget> {
           width: 18,
           child: Container(
             alignment: Alignment.center,
-            child: Text('$_c1Count'),
+            child: Text('$_e1Count'),
           ),
         ),
          Container(
@@ -67,18 +67,18 @@ class _Chick1WidgetState extends State<Chick1Widget> {
   }
 }
 
-class Chick2Widget extends StatefulWidget {
+class Extra2Widget extends StatefulWidget {
   @override
-  _Chick2WidgetState createState() => _Chick2WidgetState();
+  _Extra2WidgetState createState() => _Extra2WidgetState();
 }
-class _Chick2WidgetState extends State<Chick2Widget> {
+class _Extra2WidgetState extends State<Extra2Widget> {
   bool _isFavorited = true;
-  int _c2Count = 0;
+  int _e2Count = 0;
   
   void _toggleFavorite() {
   setState(() {
     if (_isFavorited) {
-      _c2Count += 1;
+      _e2Count += 1;
       _isFavorited = true;
     } 
   });
@@ -86,11 +86,11 @@ class _Chick2WidgetState extends State<Chick2Widget> {
   void _toggleFavorite2() {
   setState(() {
     if(_isFavorited) {
-      if(_c2Count ==0){
-        _c2Count =0;
+      if(_e2Count ==0){
+        _e2Count =0;
         _isFavorited = true;
       }  else {
-        _c2Count -= 1;
+        _e2Count -= 1;
         _isFavorited = true;
       }
     }
@@ -116,7 +116,7 @@ class _Chick2WidgetState extends State<Chick2Widget> {
           width: 18,
           child: Container(
             alignment: Alignment.center,
-            child: Text('$_c2Count'),
+            child: Text('$_e2Count'),
           ),
         ),
          Container(
@@ -134,18 +134,18 @@ class _Chick2WidgetState extends State<Chick2Widget> {
     );
   }
 }
-class Chick3Widget extends StatefulWidget {
+class Extra3Widget extends StatefulWidget {
   @override
-  _Chick3WidgetState createState() => _Chick3WidgetState();
+  _Extra3WidgetState createState() => _Extra3WidgetState();
 }
-class _Chick3WidgetState extends State<Chick3Widget> {
+class _Extra3WidgetState extends State<Extra3Widget> {
   bool _isFavorited = true;
-  int _c3Count = 0;
+  int _e3Count = 0;
   
   void _toggleFavorite() {
   setState(() {
     if (_isFavorited) {
-      _c3Count += 1;
+      _e3Count += 1;
       _isFavorited = true;
     } 
   });
@@ -153,11 +153,11 @@ class _Chick3WidgetState extends State<Chick3Widget> {
   void _toggleFavorite2() {
   setState(() {
     if(_isFavorited) {
-      if(_c3Count ==0){
-        _c3Count =0;
+      if(_e3Count ==0){
+        _e3Count =0;
         _isFavorited = true;
       }  else {
-        _c3Count -= 1;
+        _e3Count -= 1;
         _isFavorited = true;
       }
     }
@@ -183,7 +183,74 @@ class _Chick3WidgetState extends State<Chick3Widget> {
           width: 18,
           child: Container(
             alignment: Alignment.center,
-            child: Text('$_c3Count'),
+            child: Text('$_e3Count'),
+          ),
+        ),
+         Container(
+          padding: EdgeInsets.all(0),
+          child: IconButton(
+            padding: EdgeInsets.all(15),
+            alignment: Alignment.centerLeft,
+            icon: (_isFavorited ? Icon(Icons.add) : Icon(Icons.star_border)),
+            //color: Colors.red[500],
+            onPressed: _toggleFavorite,
+          ),
+        ),
+       
+      ],
+    );
+  }
+}
+class Extra4Widget extends StatefulWidget {
+  @override
+  _Extra4WidgetState createState() => _Extra4WidgetState();
+}
+class _Extra4WidgetState extends State<Extra4Widget> {
+  bool _isFavorited = true;
+  int _e4Count = 0;
+  
+  void _toggleFavorite() {
+  setState(() {
+    if (_isFavorited) {
+      _e4Count += 1;
+      _isFavorited = true;
+    } 
+  });
+  }
+  void _toggleFavorite2() {
+  setState(() {
+    if(_isFavorited) {
+      if(_e4Count ==0){
+        _e4Count =0;
+        _isFavorited = true;
+      }  else {
+        _e4Count -= 1;
+        _isFavorited = true;
+      }
+    }
+  });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Container(
+          padding: EdgeInsets.all(15),
+          child: IconButton(
+            padding: EdgeInsets.all(0),
+            alignment: Alignment.centerRight,
+            icon: (_isFavorited ? Icon(Icons.remove) : Icon(Icons.star_border)),
+            //color: Colors.red[500],
+            onPressed: _toggleFavorite2,
+          ),
+        ),
+         SizedBox(
+          width: 18,
+          child: Container(
+            alignment: Alignment.center,
+            child: Text('$_e4Count'),
           ),
         ),
          Container(

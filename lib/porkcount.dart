@@ -39,9 +39,9 @@ class _Pork1WidgetState extends State<Pork1Widget> {
           child: IconButton(
             padding: EdgeInsets.all(0),
             alignment: Alignment.centerRight,
-            icon: (_isFavorited ? Icon(Icons.add) : Icon(Icons.star_border)),
+            icon: (_isFavorited ? Icon(Icons.remove) : Icon(Icons.star_border)),
             //color: Colors.red[500],
-            onPressed: _toggleFavorite,
+            onPressed: _toggleFavorite2,
           ),
         ),
          SizedBox(
@@ -56,9 +56,9 @@ class _Pork1WidgetState extends State<Pork1Widget> {
           child: IconButton(
             padding: EdgeInsets.all(15),
             alignment: Alignment.centerLeft,
-            icon: (_isFavorited ? Icon(Icons.remove) : Icon(Icons.star_border)),
+            icon: (_isFavorited ? Icon(Icons.add) : Icon(Icons.star_border)),
             //color: Colors.red[500],
-            onPressed: _toggleFavorite2,
+            onPressed: _toggleFavorite,
           ),
         ),
        
@@ -107,9 +107,9 @@ class _Pork2WidgetState extends State<Pork2Widget> {
           child: IconButton(
             padding: EdgeInsets.all(0),
             alignment: Alignment.centerRight,
-            icon: (_isFavorited ? Icon(Icons.add) : Icon(Icons.star_border)),
+            icon: (_isFavorited ? Icon(Icons.remove) : Icon(Icons.star_border)),
             //color: Colors.red[500],
-            onPressed: _toggleFavorite,
+            onPressed: _toggleFavorite2,
           ),
         ),
          SizedBox(
@@ -124,9 +124,9 @@ class _Pork2WidgetState extends State<Pork2Widget> {
           child: IconButton(
             padding: EdgeInsets.all(15),
             alignment: Alignment.centerLeft,
-            icon: (_isFavorited ? Icon(Icons.remove) : Icon(Icons.star_border)),
+            icon: (_isFavorited ? Icon(Icons.add) : Icon(Icons.star_border)),
             //color: Colors.red[500],
-            onPressed: _toggleFavorite2,
+            onPressed: _toggleFavorite,
           ),
         ),
        
@@ -174,9 +174,9 @@ class _Pork3WidgetState extends State<Pork3Widget> {
           child: IconButton(
             padding: EdgeInsets.all(0),
             alignment: Alignment.centerRight,
-            icon: (_isFavorited ? Icon(Icons.add) : Icon(Icons.star_border)),
+            icon: (_isFavorited ? Icon(Icons.remove) : Icon(Icons.star_border)),
             //color: Colors.red[500],
-            onPressed: _toggleFavorite,
+            onPressed: _toggleFavorite2,
           ),
         ),
          SizedBox(
@@ -191,9 +191,9 @@ class _Pork3WidgetState extends State<Pork3Widget> {
           child: IconButton(
             padding: EdgeInsets.all(15),
             alignment: Alignment.centerLeft,
-            icon: (_isFavorited ? Icon(Icons.remove) : Icon(Icons.star_border)),
+            icon: (_isFavorited ? Icon(Icons.add) : Icon(Icons.star_border)),
             //color: Colors.red[500],
-            onPressed: _toggleFavorite2,
+            onPressed: _toggleFavorite,
           ),
         ),
        

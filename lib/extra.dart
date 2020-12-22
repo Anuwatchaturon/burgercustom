@@ -1,4 +1,5 @@
- import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
+import 'extracount.dart';
     Widget extra = Container(
       padding: const EdgeInsets.all(35),
       child: Center(
@@ -24,12 +25,12 @@
                         Container(
                         child: 
                       Text(
-                        '               Menu 1',style: TextStyle(fontWeight: FontWeight.bold,),
+                        '          Extra 1',style: TextStyle(fontWeight: FontWeight.bold,),
                         ),
                           ),
                         Container(
                         child: 
-                      Text('                น้ำอัดลม',style: TextStyle(color: Colors.grey[550],),
+                      Text('           น้ำอัดลม',style: TextStyle(color: Colors.grey[550],),
                         ),
                           ),
                        Container(
@@ -38,12 +39,16 @@
                         
                         Container(
                         child: 
-                      Text('                ราคา 15 บาท',style: TextStyle(color: Colors.grey[550],),
+                      Text('           ราคา 15 บาท',style: TextStyle(color: Colors.grey[550],),
                         ),
                           ),
                        ],
                     ),
-                      ),      
+                      ),   
+                      Container(
+                        child: 
+                      Extra1Widget(),
+                        ),    
                        ],
                     ),
                       ),  
@@ -62,12 +67,12 @@
                         Container(
                         child: 
                       Text(
-                        '               Menu 2',style: TextStyle(fontWeight: FontWeight.bold,),
+                        '          Extra 2',style: TextStyle(fontWeight: FontWeight.bold,),
                         ),
                           ),
                         Container(
                         child: 
-                      Text('                เบค่อน',style: TextStyle(color: Colors.grey[550],),
+                      Text('           เบค่อน',style: TextStyle(color: Colors.grey[550],),
                         ),
                           ),
                        Container(
@@ -76,12 +81,16 @@
                         
                         Container(
                         child: 
-                      Text('                ราคา 10 บาท',style: TextStyle(color: Colors.grey[550],),
+                      Text('           ราคา 10 บาท',style: TextStyle(color: Colors.grey[550],),
                         ),
                           ),
                        ],
                     ),
-                      ),      
+                      ),     
+                      Container(
+                        child: 
+                      Extra2Widget(),
+                        ),  
                        ],
                     ),
                       ),  
@@ -100,12 +109,12 @@
                         Container(
                         child: 
                       Text(
-                        '               Menu 3',style: TextStyle(fontWeight: FontWeight.bold,),
+                        '          Extra 3',style: TextStyle(fontWeight: FontWeight.bold,),
                         ),
                           ),
                         Container(
                         child: 
-                      Text('                ไส้กรอก',style: TextStyle(color: Colors.grey[550],),
+                      Text('           ไส้กรอก',style: TextStyle(color: Colors.grey[550],),
                         ),
                           ),
                        Container(
@@ -114,12 +123,16 @@
                         
                         Container(
                         child: 
-                      Text('                ราคา 5 บาท',style: TextStyle(color: Colors.grey[550],),
+                      Text('           ราคา 5 บาท',style: TextStyle(color: Colors.grey[550],),
                         ),
                           ),
                        ],
                     ),
-                      ),      
+                      ),   
+                      Container(
+                        child: 
+                      Extra3Widget(),
+                        ),    
                        ],
                     ),
                       ),  
@@ -140,12 +153,12 @@
                           
                         child: 
                       Text(
-                        '               Menu 4',style: TextStyle(fontWeight: FontWeight.bold,),
+                        '          Extra 4',style: TextStyle(fontWeight: FontWeight.bold,),
                         ),
                           ),
                         Container(
                         child: 
-                      Text('                เฟรนฟราย',style: TextStyle(color: Colors.grey[550],),
+                      Text('           เฟรนฟราย',style: TextStyle(color: Colors.grey[550],),
                         ),
                           ),
                        Container(
@@ -154,12 +167,16 @@
                         
                         Container(
                         child: 
-                      Text('                ราคา 20 บาท',style: TextStyle(color: Colors.grey[550],),
+                      Text('           ราคา 20 บาท',style: TextStyle(color: Colors.grey[550],),
                         ),
                           ),
                        ],
                     ),
-                      ),      
+                      ),    
+                      Container(
+                        child: 
+                      Extra4Widget(),
+                        ),   
                        ],
                     ),
                       ),  
