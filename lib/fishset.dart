@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'fishcount.dart';
     Widget fishset = Container(
-      padding: const EdgeInsets.all(35),
+      padding: const EdgeInsets.all(20),
       
       child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -11,7 +11,7 @@ import 'fishcount.dart';
                   padding: const EdgeInsets.only(bottom: 15),
                         child: 
                       Text(
-                        'Fish',style: TextStyle(fontWeight: FontWeight.bold,),
+                        'FISH',style: TextStyle(fontWeight: FontWeight.bold,),
                         ),
                           ),
                 Container(

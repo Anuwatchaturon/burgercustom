@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'extracount.dart';
     Widget extra = Container(
-      padding: const EdgeInsets.all(35),
-      child: Center(
+      padding: const EdgeInsets.all(20),
+      
       child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -25,30 +25,24 @@ import 'extracount.dart';
                         Container(
                         child: 
                       Text(
-                        '          Extra 1',style: TextStyle(fontWeight: FontWeight.bold,),
+                        '         Extra 1',style: TextStyle(fontWeight: FontWeight.bold,),
                         ),
                           ),
                         Container(
                         child: 
-                      Text('           น้ำอัดลม',style: TextStyle(color: Colors.grey[550],),
+                      Text('          น้ำอัดลม',style: TextStyle(color: Colors.grey[550],),
                         ),
                           ),
-                       Container(
-                    child: Row(
-                       children: [
-                        
                         Container(
                         child: 
-                      Text('           ราคา 15 บาท',style: TextStyle(color: Colors.grey[550],),
+                      Text('        ราคา 15 บาท',style: TextStyle(color: Colors.grey[550],),
                         ),
-                          ),
-                       ],
-                    ),
-                      ),   
+                         
+                    ), 
                       Container(
                         child: 
                       Extra1Widget(),
-                        ),    
+                        ),     
                        ],
                     ),
                       ),  
@@ -60,48 +54,6 @@ import 'extracount.dart';
                   padding: const EdgeInsets.only(bottom: 30),
                   child: Row(
                   children: [
-                    Image.asset('images/bacon.jpg',width: 180,height: 135,fit: BoxFit.cover,),
-                    Container(
-                    child: Column(
-                       children: [
-                        Container(
-                        child: 
-                      Text(
-                        '          Extra 2',style: TextStyle(fontWeight: FontWeight.bold,),
-                        ),
-                          ),
-                        Container(
-                        child: 
-                      Text('           เบค่อน',style: TextStyle(color: Colors.grey[550],),
-                        ),
-                          ),
-                       Container(
-                    child: Row(
-                       children: [
-                        
-                        Container(
-                        child: 
-                      Text('           ราคา 10 บาท',style: TextStyle(color: Colors.grey[550],),
-                        ),
-                          ),
-                       ],
-                    ),
-                      ),     
-                      Container(
-                        child: 
-                      Extra2Widget(),
-                        ),  
-                       ],
-                    ),
-                      ),  
-                     ], 
-                    ),      
-                  ),
-//3
-                  Container(
-                  padding: const EdgeInsets.only(bottom: 30),
-                  child: Row(
-                  children: [
                     Image.asset('images/ss.jpg',width: 180,height: 135,fit: BoxFit.cover,),
                     Container(
                     child: Column(
@@ -109,74 +61,98 @@ import 'extracount.dart';
                         Container(
                         child: 
                       Text(
-                        '          Extra 3',style: TextStyle(fontWeight: FontWeight.bold,),
+                        '         Extra 2',style: TextStyle(fontWeight: FontWeight.bold,),
                         ),
                           ),
                         Container(
                         child: 
-                      Text('           ไส้กรอก',style: TextStyle(color: Colors.grey[550],),
+                      Text('          ไส้กรอก',style: TextStyle(color: Colors.grey[550],),
                         ),
                           ),
-                       Container(
-                    child: Row(
-                       children: [
-                        
                         Container(
                         child: 
-                      Text('           ราคา 5 บาท',style: TextStyle(color: Colors.grey[550],),
+                      Text('          ราคา 5 บาท',style: TextStyle(color: Colors.grey[550],),
                         ),
-                          ),
-                       ],
-                    ),
-                      ),   
+                         
+                    ), 
                       Container(
                         child: 
-                      Extra3Widget(),
-                        ),    
+                      Extra2Widget(),
+                        ),     
                        ],
                     ),
                       ),  
                      ], 
                     ),      
                   ),
- //4
- Container(
+
+//03
+                Container(
+                  padding: const EdgeInsets.only(bottom: 30),
+                  child: Row(
+                  children: [
+                    Image.asset('images/bacon.jpg',width: 180,height: 135,fit: BoxFit.cover,),
+                    Container(
+                    child: Column(
+                       children: [
+                        Container(
+                        child: 
+                      Text(
+                        '         Extra 3',style: TextStyle(fontWeight: FontWeight.bold,),
+                        ),
+                          ),
+                        Container(
+                        child: 
+                      Text('          เบค่อน',style: TextStyle(color: Colors.grey[550],),
+                        ),
+                          ),
+                        Container(
+                        child: 
+                      Text('          ราคา 5 บาท',style: TextStyle(color: Colors.grey[550],),
+                        ),
+                         
+                    ), 
+                      Container(
+                        child: 
+                      Extra3Widget(),
+                        ),     
+                       ],
+                    ),
+                      ),  
+                     ], 
+                    ),      
+                  ),
+
+//04
+                Container(
                   padding: const EdgeInsets.only(bottom: 30),
                   child: Row(
                   children: [
                     Image.asset('images/ff.jpg',width: 180,height: 135,fit: BoxFit.cover,),
                     Container(
-                      
                     child: Column(
                        children: [
                         Container(
-                          
                         child: 
                       Text(
-                        '          Extra 4',style: TextStyle(fontWeight: FontWeight.bold,),
+                        '         Extra 4',style: TextStyle(fontWeight: FontWeight.bold,),
                         ),
                           ),
                         Container(
                         child: 
-                      Text('           เฟรนฟราย',style: TextStyle(color: Colors.grey[550],),
+                      Text('          เฟรนฟราย',style: TextStyle(color: Colors.grey[550],),
                         ),
                           ),
-                       Container(
-                    child: Row(
-                       children: [
-                        
                         Container(
                         child: 
-                      Text('           ราคา 20 บาท',style: TextStyle(color: Colors.grey[550],),
+                      Text('          ราคา 20 บาท',style: TextStyle(color: Colors.grey[550],),
                         ),
-                          ),
-                       ],
-                    ),
-                      ),    
+                         
+                    ), 
                       Container(
                         child: 
                       Extra4Widget(),
-                        ),   
+                        ),     
                        ],
                     ),
                       ),  
@@ -184,8 +160,6 @@ import 'extracount.dart';
                     ),      
                   ),
 
-
-                  ],    
+                  ],   
                 ),
-      ),
     );

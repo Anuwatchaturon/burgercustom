@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'chickcount.dart';
     Widget chickset = Container(
-      padding: const EdgeInsets.all(35),
+      padding: const EdgeInsets.all(20),
       
       child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
