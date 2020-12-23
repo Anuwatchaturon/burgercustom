@@ -39,7 +39,7 @@ import 'porkcount.dart';
                         Container(
                         child: 
                       Text(
-                        '      Size S',style: TextStyle(color: Colors.grey[550],),
+                        '     Size S',style: TextStyle(color: Colors.grey[550],),
                         ),
                           ),
                         Container(

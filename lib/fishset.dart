@@ -25,12 +25,12 @@ import 'fishcount.dart';
                         Container(
                         child: 
                       Text(
-                        '    Menu 10',style: TextStyle(fontWeight: FontWeight.bold,),
+                        '         Menu 10',style: TextStyle(fontWeight: FontWeight.bold,),
                         ),
                           ),
                         Container(
                         child: 
-                      Text('    Fish Burger',style: TextStyle(color: Colors.grey[550],),
+                      Text('          Fish Burger',style: TextStyle(color: Colors.grey[550],),
                         ),
                           ),
                        Container(
@@ -72,12 +72,12 @@ import 'fishcount.dart';
                         Container(
                         child: 
                       Text(
-                        '    Menu 11',style: TextStyle(fontWeight: FontWeight.bold,),
+                        '         Menu 11',style: TextStyle(fontWeight: FontWeight.bold,),
                         ),
                           ),
                         Container(
                         child: 
-                      Text('    Fish Burger',style: TextStyle(color: Colors.grey[550],),
+                      Text('          Fish Burger',style: TextStyle(color: Colors.grey[550],),
                         ),
                           ),
                        Container(
@@ -119,12 +119,12 @@ import 'fishcount.dart';
                         Container(
                         child: 
                       Text(
-                        '    Menu 12',style: TextStyle(fontWeight: FontWeight.bold,),
+                        '         Menu 12',style: TextStyle(fontWeight: FontWeight.bold,),
                         ),
                           ),
                         Container(
                         child: 
-                      Text('    Fish Burger',style: TextStyle(color: Colors.grey[550],),
+                      Text('          Fish Burger',style: TextStyle(color: Colors.grey[550],),
                         ),
                           ),
                        Container(
