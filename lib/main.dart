@@ -5,6 +5,7 @@ import 'beefset.dart';
 import 'fishset.dart';
 import 'extra.dart';
 import 'btn.dart';
+import 'show.dart';
 void main() {
   runApp(MyApp());
 }
@@ -64,7 +65,7 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Burger Custom'),
+          title: Text('Lories Burger'),
         ),
         body: ListView(
           children: [
@@ -81,9 +82,9 @@ class MyApp extends StatelessWidget {
             beefset,
             fishset,
             extra,
-            btn,
+            FirstRoute(),
           
-            
+
           ],
         ),
       ),

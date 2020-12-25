@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'extracount.dart';
+import 'show.dart';
     Widget extra = Container(
       padding: const EdgeInsets.all(20),
       
@@ -108,7 +108,7 @@ import 'extracount.dart';
                           ),
                         Container(
                         child: 
-                      Text('          ราคา 5 บาท',style: TextStyle(color: Colors.grey[550],),
+                      Text('          ราคา 10 บาท',style: TextStyle(color: Colors.grey[550],),
                         ),
                          
                     ), 

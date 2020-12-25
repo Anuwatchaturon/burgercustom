@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'chickcount.dart';
+import 'show.dart';
     Widget chickset = Container(
       padding: const EdgeInsets.all(20),
       
@@ -53,7 +53,8 @@ import 'chickcount.dart';
                       Container(
                         child: 
                       Chick1Widget(),
-                        ),        
+                        ),     
+                           
                        ],
                     ),
                       ),  
