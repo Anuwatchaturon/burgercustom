@@ -252,44 +252,54 @@ RaisedButton(
 
 class Route extends StatelessWidget {
 
-
-
-
   @override
   Widget build(BuildContext context) {
+    
     return Scaffold(
      
       body: ListView(
      children: [
- 
-RaisedButton(                    
+
+
+
+ SizedBox(
+          width: 20,
+          child: Container(
+            padding: const EdgeInsets.only(top:200),
+            alignment: Alignment.center,
+            child: Text('\nซื้อสำเร็จ\n',style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                    ),),
+          ),
+        ),
+        Image.asset(
+              
+              'images/done.png',
+              alignment: Alignment.center,
+              width: 150,
+              height: 150,
+              //fit: BoxFit.cover,
+            ),
+      
+  SizedBox(
+          width: 0,
+          
+        child: FlatButton(  
+               padding: const EdgeInsets.only(top:5), 
           onPressed: () {
              Navigator.push(
     context,
     MaterialPageRoute(builder: (context) => MyApp()),
   );
 },
-          child: Text('close'),
-          color: Colors.orange[500],
+          child: Text('close',style: TextStyle(
+                    color: Colors.orange[700],
+                  ),
+                  ),
+          //color: Colors.orange[500],
+          
                           ),
-
-
-Image.asset(
-  
-              'images/done.png',
-              width: 150,
-              height: 150,
-              //fit: BoxFit.cover,
-            ),
- SizedBox(
-          width: 20,
-          child: Container(
-            alignment: Alignment.center,
-            child: Text('ซื้อสำเร็จ',style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                    ),),
-          ),
-        ),
+         ),
       ],
       ),
     );
